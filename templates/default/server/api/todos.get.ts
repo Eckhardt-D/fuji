@@ -7,4 +7,9 @@ const selectTodos = e.select(e.Todo, () => ({
   done: true,
 }));
 
-export default defineEventHandler(async () => {});
+export type Todos = $infer<typeof selectTodos>;
+
+export default defineEventHandler<Todos>(async () => {
+  const todos = await selectTodos.run(client);
+  return todos;
+});
