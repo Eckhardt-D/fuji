@@ -1,0 +1,22 @@
+{
+  "name": "@fuji/template-default",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "yarn run db:prepare",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "prepare": "yarn run db:prepare && nuxt prepare",
+    "db:migrate": "edgedb migrate",
+    "db:create-migration": "edgedb migration create",
+    "db:prepare": "npx edgeql-js"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  },
+  "dependencies": {
+    "edgedb": "^0.21.3"
+  }
+}

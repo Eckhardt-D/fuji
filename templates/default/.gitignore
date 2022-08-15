@@ -1,0 +1,9 @@
+# Nuxt
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+dbschema/edgeql-js

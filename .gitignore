@@ -31,3 +31,13 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+# Nuxt
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+dbschema/edgeql-js

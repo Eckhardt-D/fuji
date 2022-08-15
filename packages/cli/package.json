@@ -1,0 +1,23 @@
+{
+  "name": "@fuji/cli",
+  "version": "0.1.0",
+  "description": "A command line tool for creating Fuji stack apps",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eckhardt-D/fuji.git"
+  },
+  "keywords": [
+    "Fuji",
+    "Nuxt"
+  ],
+  "author": "Eckhardt-D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eckhardt-D/fuji/issues"
+  },
+  "homepage": "https://github.com/Eckhardt-D/fuji#readme"
+}
